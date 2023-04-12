@@ -5,7 +5,7 @@ const post = {
     Comments: "",
     name: "",
     imagerUrl: "",
-    summary: "",
+    summary: ""
 
 }
 

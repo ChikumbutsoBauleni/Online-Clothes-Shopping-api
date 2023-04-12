@@ -1,12 +1,12 @@
-const mysql = ('mysql')
+const mysql = require('mysql')
 const dotenv = require('dotenv')
 
 dotenv.config()
 
 const config = {
     host: "localhost",
-    database: Process.env.DATABASE.NAME,
-    user:process.env.DATABASE.USER,
+    database: process.env.DATABASE_NAME,
+    user:process.env.DATABASE_USER,
     password: process.env.DATABASE_PASSWORD,
     connectionLimit: 100,
 
