@@ -10,3 +10,11 @@ const post = {
 }
 
 module.exports = post
+
+//class Post {
+    //constructor(){
+
+ //   }
+//}
+
+//module.exports ={post}
